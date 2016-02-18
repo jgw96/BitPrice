@@ -1,13 +1,24 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="UTF-8">
-    <title>Hello World!</title>
-  </head>
-  <body>
-    <h1>Hello World!</h1>
-    We are using node <script>document.write(process.versions.node)</script>,
-    Chrome <script>document.write(process.versions.chrome)</script>,
-    and Electron <script>document.write(process.versions.electron)</script>.
-  </body>
+    <title>BitPrice</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body class="container">
+    <h4 id="appTitle">BitPrice</h4>
+    <h1 id="title">Current Value</h1>
+    <h1 id="currentPrice"></h1>
+    <h1 id="loading">loading...</h1>
+
+    <button class="btn btn-lg center-block" id="checkButton">Update</button>
+</body>
+
+<script src="app.js"></script>
+
 </html>

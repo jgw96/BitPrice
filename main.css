@@ -1,0 +1,22 @@
+body {
+    background-color:#2196F3;
+    color: white;
+    text-align: center;
+}
+
+#title {
+    color: #FFEB3B;
+    margin-top: 6rem;
+}
+
+#checkButton {
+    background-color: #FFEB3B;
+    color: white;
+    margin-top: 4rem;
+}
+
+#appTitle {
+    position: absolute;
+    left: 2%;
+    top: 1%;
+}
