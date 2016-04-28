@@ -1,7 +1,7 @@
 "use strict";
 
 const getData = () => {
-    let currentPrice = document.querySelector("#currentPrice");
+    const currentPrice = document.querySelector("#currentPrice");
 
     currentPrice.style.display = "none";
 
